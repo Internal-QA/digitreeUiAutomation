@@ -1,0 +1,104 @@
+2025-04-24 16:13:30,319 - INFO - Starting test: test_environment_setup
+2025-04-24 16:13:30,320 - INFO - Sending POST request to https://d3g8su2w1x0h24.cloudfront.net/api/login
+2025-04-24 16:13:31,365 - INFO - Response status code: 200
+2025-04-24 16:13:31,368 - INFO - Completed test: test_environment_setup
+2025-04-24 16:13:31,368 - INFO - Starting test: test_switch_environments
+2025-04-24 16:13:31,369 - INFO - Completed test: test_switch_environments
+2025-04-24 16:13:31,369 - INFO - Starting test: test_basic_request
+2025-04-24 16:13:31,370 - INFO - Completed test: test_basic_request
+2025-04-24 16:13:31,370 - INFO - Starting test: test_with_query_parameters
+2025-04-24 16:13:31,371 - INFO - Completed test: test_with_query_parameters
+2025-04-24 16:13:31,371 - INFO - Starting test: test_with_payload
+2025-04-24 16:13:31,371 - INFO - Completed test: test_with_payload
+2025-04-24 16:13:31,372 - INFO - Starting test: test_error_handling
+2025-04-24 16:13:31,372 - INFO - Completed test: test_error_handling
+2025-04-24 16:13:31,373 - INFO - Starting test: test_with_parameters[value1]
+2025-04-24 16:13:31,373 - INFO - Completed test: test_with_parameters[value1]
+2025-04-24 16:13:31,374 - INFO - Starting test: test_with_parameters[value2]
+2025-04-24 16:13:31,374 - INFO - Completed test: test_with_parameters[value2]
+2025-04-24 16:13:31,374 - INFO - Starting test: test_with_parameters[value3]
+2025-04-24 16:13:31,375 - INFO - Completed test: test_with_parameters[value3]
+2025-04-24 16:13:31,375 - INFO - Starting test: test_get_privacy_policy
+2025-04-24 16:13:31,375 - INFO - Sending GET request to https://d3g8su2w1x0h24.cloudfront.net/api/get_documents_by_section
+2025-04-24 16:13:31,836 - INFO - Response status code: 200
+2025-04-24 16:13:31,839 - INFO - Completed test: test_get_privacy_policy
+2025-04-24 16:13:31,840 - INFO - Starting test: test_get_eula_content
+2025-04-24 16:13:31,841 - INFO - Sending GET request to https://d3g8su2w1x0h24.cloudfront.net/api/get_documents_by_section
+2025-04-24 16:13:32,413 - INFO - Response status code: 200
+2025-04-24 16:13:32,418 - INFO - Completed test: test_get_eula_content
+2025-04-24 16:13:32,419 - INFO - Starting test: test_eula_invalid_section
+2025-04-24 16:13:32,420 - INFO - Sending GET request to https://d3g8su2w1x0h24.cloudfront.net/api/get_documents_by_section
+2025-04-24 16:13:33,239 - INFO - Response status code: 200
+2025-04-24 16:13:33,242 - INFO - Completed test: test_eula_invalid_section
+2025-04-24 16:13:33,243 - INFO - Starting test: test_eula_missing_auth
+2025-04-24 16:13:33,243 - INFO - Sending GET request to https://d3g8su2w1x0h24.cloudfront.net/api/get_documents_by_section
+2025-04-24 16:13:33,759 - INFO - Response status code: 500
+2025-04-24 16:13:33,762 - INFO - Completed test: test_eula_missing_auth
+2025-04-24 16:13:33,763 - INFO - Starting test: test_eula_invalid_auth
+2025-04-24 16:13:33,763 - INFO - Sending GET request to https://d3g8su2w1x0h24.cloudfront.net/api/get_documents_by_section
+2025-04-24 16:13:34,192 - INFO - Response status code: 401
+2025-04-24 16:13:34,194 - INFO - Completed test: test_eula_invalid_auth
+2025-04-24 16:13:34,195 - INFO - Starting test: test_valid_login
+2025-04-24 16:13:34,195 - INFO - Sending POST request to https://d3g8su2w1x0h24.cloudfront.net/api/auth/user/login
+2025-04-24 16:13:35,007 - INFO - Response status code: 401
+2025-04-24 16:13:35,010 - INFO - Completed test: test_valid_login
+2025-04-24 16:13:35,011 - INFO - Starting test: test_valid_login
+2025-04-24 16:13:35,011 - INFO - Sending POST request to https://d3g8su2w1x0h24.cloudfront.net/api/auth/user/login
+2025-04-24 16:13:36,081 - INFO - Response status code: 401
+2025-04-24 16:13:36,084 - INFO - Completed test: test_valid_login
+2025-04-24 16:13:36,085 - INFO - Starting test: test_invalid_credentials
+2025-04-24 16:13:36,085 - INFO - Sending POST request to https://d3g8su2w1x0h24.cloudfront.net/api/auth/user/login
+2025-04-24 16:13:36,849 - INFO - Response status code: 401
+2025-04-24 16:13:36,852 - INFO - Completed test: test_invalid_credentials
+2025-04-24 16:13:36,853 - INFO - Starting test: test_missing_credentials
+2025-04-24 16:13:36,853 - INFO - Sending POST request to https://d3g8su2w1x0h24.cloudfront.net/api/auth/user/login
+2025-04-24 16:13:37,317 - INFO - Response status code: 401
+2025-04-24 16:13:37,320 - INFO - Completed test: test_missing_credentials
+2025-04-24 16:13:37,321 - INFO - Starting test: test_missing_field[username]
+2025-04-24 16:13:37,321 - INFO - Sending POST request to https://d3g8su2w1x0h24.cloudfront.net/api/auth/user/login
+2025-04-24 16:13:37,701 - INFO - Response status code: 401
+2025-04-24 16:13:37,704 - INFO - Completed test: test_missing_field[username]
+2025-04-24 16:13:37,705 - INFO - Starting test: test_missing_field[password]
+2025-04-24 16:13:37,705 - INFO - Sending POST request to https://d3g8su2w1x0h24.cloudfront.net/api/auth/user/login
+2025-04-24 16:13:38,053 - INFO - Response status code: 401
+2025-04-24 16:13:38,057 - INFO - Completed test: test_missing_field[password]
+2025-04-24 16:13:38,058 - INFO - Starting test: test_get_help_content
+2025-04-24 16:13:38,058 - INFO - Sending GET request to https://d3g8su2w1x0h24.cloudfront.net/api/get_documents_by_section
+2025-04-24 16:13:38,511 - INFO - Response status code: 200
+2025-04-24 16:13:38,513 - INFO - Completed test: test_get_help_content
+2025-04-24 16:13:38,514 - INFO - Starting test: test_get_termAndCond
+2025-04-24 16:13:38,515 - INFO - Sending GET request to https://d3g8su2w1x0h24.cloudfront.net/api/get_documents_by_section
+2025-04-24 16:13:38,849 - INFO - Response status code: 200
+2025-04-24 16:13:38,851 - INFO - Completed test: test_get_termAndCond
+2025-04-24 16:13:38,851 - INFO - Starting test: test_get_valuation_list
+2025-04-24 16:13:38,851 - INFO - Sending GET request to https://d3g8su2w1x0h24.cloudfront.net/api/valuation?perPage=10&pageNo=1&q=&username=mohit
+2025-04-24 16:13:40,387 - INFO - Response status code: 200
+2025-04-24 16:13:40,390 - INFO - Completed test: test_get_valuation_list
+2025-04-24 16:13:40,391 - INFO - Starting test: test_get_valuation_list_with_pagination
+2025-04-24 16:13:40,391 - INFO - Sending GET request to https://d3g8su2w1x0h24.cloudfront.net/api/valuation?perPage=5&pageNo=2&q=&username=mohit
+2025-04-24 16:13:41,945 - INFO - Response status code: 200
+2025-04-24 16:13:41,948 - INFO - Completed test: test_get_valuation_list_with_pagination
+2025-04-24 16:13:41,948 - INFO - Starting test: test_get_valuation_list_with_search
+2025-04-24 16:13:41,949 - INFO - Sending GET request to https://d3g8su2w1x0h24.cloudfront.net/api/valuation?perPage=10&pageNo=1&q=Estimate&username=mohit
+2025-04-24 16:13:43,551 - INFO - Response status code: 200
+2025-04-24 16:13:43,554 - INFO - Completed test: test_get_valuation_list_with_search
+2025-04-24 16:13:43,555 - INFO - Starting test: test_get_valuation_list_invalid_token
+2025-04-24 16:13:43,555 - INFO - Sending GET request to https://d3g8su2w1x0h24.cloudfront.net/api/valuation?perPage=10&pageNo=1&q=&username=mohit
+2025-04-24 16:13:43,941 - INFO - Response status code: 401
+2025-04-24 16:13:43,943 - INFO - Completed test: test_get_valuation_list_invalid_token
+2025-04-24 16:13:43,944 - INFO - Starting test: test_create_valuation
+2025-04-24 16:13:43,944 - INFO - Sending POST request to https://d3g8su2w1x0h24.cloudfront.net/api/valuation?username=mohit
+2025-04-24 16:13:44,355 - INFO - Response status code: 200
+2025-04-24 16:13:44,358 - INFO - Completed test: test_create_valuation
+2025-04-24 16:13:44,360 - INFO - Starting test: test_create_valuation_missing_fields
+2025-04-24 16:13:44,360 - INFO - Sending POST request to https://d3g8su2w1x0h24.cloudfront.net/api/valuation?username=mohit
+2025-04-24 16:13:44,700 - INFO - Response status code: 408
+2025-04-24 16:13:44,702 - INFO - Completed test: test_create_valuation_missing_fields
+2025-04-24 16:13:44,703 - INFO - Starting test: test_create_valuation_invalid_token
+2025-04-24 16:13:44,703 - INFO - Sending POST request to https://d3g8su2w1x0h24.cloudfront.net/api/valuation?username=mohit
+2025-04-24 16:13:45,100 - INFO - Response status code: 401
+2025-04-24 16:13:45,102 - INFO - Completed test: test_create_valuation_invalid_token
+2025-04-24 16:13:45,102 - INFO - Starting test: test_create_valuation_missing_username
+2025-04-24 16:13:45,103 - INFO - Sending POST request to https://d3g8su2w1x0h24.cloudfront.net/api/valuation
+2025-04-24 16:13:45,515 - INFO - Response status code: 200
+2025-04-24 16:13:45,519 - INFO - Completed test: test_create_valuation_missing_username

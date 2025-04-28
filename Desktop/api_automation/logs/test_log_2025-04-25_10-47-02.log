@@ -1,0 +1,4 @@
+2025-04-25 10:47:02,904 - INFO - Starting test: test_get_privacy_policy
+2025-04-25 10:47:02,905 - INFO - Sending GET request to https://d3g8su2w1x0h24.cloudfront.net/api/get_documents_by_section
+2025-04-25 10:47:03,493 - INFO - Response status code: 200
+2025-04-25 10:47:03,498 - INFO - Completed test: test_get_privacy_policy

@@ -1,0 +1,4 @@
+2025-04-25 12:39:39,883 - INFO - Starting test: test__get_dealer_radius_factor
+2025-04-25 12:39:39,884 - INFO - Sending GET request to https://d3g8su2w1x0h24.cloudfront.net/api/dealer_radius_factor
+2025-04-25 12:39:40,391 - INFO - Response status code: 200
+2025-04-25 12:39:40,405 - INFO - Completed test: test__get_dealer_radius_factor

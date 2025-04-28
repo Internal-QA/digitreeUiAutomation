@@ -1,0 +1,4 @@
+2025-04-24 17:14:32,887 - INFO - Starting test: test_get_factors
+2025-04-24 17:14:32,887 - INFO - Sending GET request to https://d3g8su2w1x0h24.cloudfront.net/api/factor
+2025-04-24 17:14:33,534 - INFO - Response status code: 200
+2025-04-24 17:14:33,536 - INFO - Completed test: test_get_factors
